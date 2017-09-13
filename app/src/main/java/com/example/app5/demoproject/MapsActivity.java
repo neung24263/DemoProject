@@ -70,6 +70,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions()
                 .position(KasamRad).title("โรงพยาบาลเกษมราษฎร์")
                 .icon(BitmapDescriptorFactory.fromResource(R.drawable.marker0))
+                .snippet("Hospi")
         );
 
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Kmutnb));
